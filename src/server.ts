@@ -1,4 +1,4 @@
 import {describe, it} from "@leyyo/core";
-import {sampleHost} from "./samples/host";
+import {hostFormatSample} from "./components/host/host-format.sample";
 
-sampleHost(describe, it);
+hostFormatSample(describe, it);
